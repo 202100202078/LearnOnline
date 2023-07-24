@@ -241,3 +241,74 @@ body {
     color: #00a4ff;
 }
 
+.course {
+    margin-top: 15px;
+    height: 601px;
+}
+
+.course .hd {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    line-height: 60px;
+    /* background-color: rgb(162, 189, 222); */
+}
+
+.hd h3{
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.more {
+    padding-right: 20px;
+    background-image: url(../images/more.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    font-size: 14px;
+    color: #999;    
+}
+
+
+.bd ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.bd li {
+    margin-bottom: 14px;
+    width: 228px;
+    height: 271px;
+}
+
+.bd li .pic {
+    height: 156px;
+}
+
+.bd li .text {
+    padding: 20px 20px 22px 20px;
+    height: 115px;
+    background-color: #fff;
+}
+
+.bd li .text h4 {
+    margin-bottom: 13px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.bd li .text p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #999;
+}
+
+.bd li .text p span {
+    color: #fa6400;
+}
+
+.bd li .text p i {
+    font-style: normal;
+}
