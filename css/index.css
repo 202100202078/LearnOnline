@@ -1,7 +1,7 @@
 /* 网页首页样式 */
 .wrapper {
     margin: 0 auto;
-    width: 1200px;
+    width: 1200px; 
 }
 
 body {
@@ -243,10 +243,9 @@ body {
 
 .course {
     margin-top: 15px;
-    height: 601px;
 }
 
-.course .hd {
+.hd {
     display: flex;
     justify-content: space-between;
     height: 60px;
@@ -259,7 +258,7 @@ body {
     font-weight: 400;
 }
 
-.more {
+.hd .more {
     padding-right: 20px;
     background-image: url(../images/more.png);
     background-repeat: no-repeat;
@@ -271,8 +270,8 @@ body {
 
 .bd ul {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .bd li {
@@ -312,3 +311,30 @@ body {
 .bd li .text p i {
     font-style: normal;
 }
+ 
+.hd ul {
+    display: flex;
+}
+
+.hd li {
+    margin-right: 60px;
+    font-size: 16px;
+}
+
+.hd li .active {
+    color: #00a4ff;
+}             
+
+.bd .left {
+    height: 386px;
+    margin-right: 15px;
+}
+
+.bd {
+    display: flex;
+}
+
+.bd .right .up {
+    margin-bottom: 15px;
+} 
+
