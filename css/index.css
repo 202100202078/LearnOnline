@@ -199,3 +199,45 @@ body {
     font-weight: 700;
     color: #fff;
 }
+
+.command {
+    margin-top: 11px;
+    padding: 0 20px;
+    display: flex;
+    height: 60px;
+    background-color: #fff;
+    box-shadow: 0px 1px 2px 0px rgba(211, 211, 211, 0.5);
+    line-height: 60px;
+}
+
+.command h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #00a4ff;
+}
+
+.command ul {
+    display: flex;
+    flex: 1;
+
+}
+
+.command ul li a:first-child {
+    padding-left: 20px;
+}
+
+.command ul li a {
+    padding: 0 24px;
+    border-right: 1px solid #e0e0e0;
+    font-size: 18px;
+}
+
+.command ul li:last-child a {
+    border-right: 0;
+}
+
+.command .modify {
+    font-size: 16px;
+    color: #00a4ff;
+}
+
